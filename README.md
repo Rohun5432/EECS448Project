@@ -1,5 +1,8 @@
 # EECS448Project
 
+Note
+This was the following structure of the Project directory, but GitHub won't allow for all of it to be uploaded, so the important files are uploaded to Github where Data is our annotated Data and Prediction Data is the 200k Kaggle Prediction Humor Dataset
+
 Data Folder
     The Raw Data folder contains all of the folders for all collected data for standup humor. Each folder contains the original youtube audio wav file, the csv file, and an wav directory folder named from 0 to n, n being proportional to the number of entries for the particular data. The Rjokes data folder contains the train, val, and test for the RJokes written humor dataset, split into four classes that represent the humor of the joke. This was used when trying to use written classification as a task for transfer learning. Warning: This dataset contains jokes that are offensive, so read with caution. The Prediction Data folder contains the train, val, and test for the Kaggle 200k humor prediction dataset. Used for the task of transfer learning using prediction humor. FinalData folder contains a Combined.csv that combines all the csv files from RawData, a Changed.csv that was used in the task to see how the Prediction transfer learning model could be used to predict humor in our annotated data: 0 for not funny and 1 for funny, a FinalFeatures.csv, the features for our dataset that were directly fed into the final model, a MFCC.csv that holds all the mfcc matrices for all data entries, and a TrainFinal, ValFinal, and TestFinal for our datasetthat were used to train and test a final model.
     
