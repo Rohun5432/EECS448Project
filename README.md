@@ -1,6 +1,6 @@
 # EECS448Project
 
-Note
+Note:
 This was the following structure of the Project directory, but GitHub won't allow for all of it to be uploaded, so the important files are uploaded to Github where Data is our annotated Data and Prediction Data is the 200k Kaggle Prediction Humor Dataset
 
 Data Folder
